@@ -19,7 +19,8 @@ const FeaturesDescription = ({ info }) => {
             text={info.paragraph}
           />
         </div>
-        <div className="col-12 col-sm-12 col-md-6 d-flex align-items-center">
+        <div className="col-12 col-sm-12 col-md-1"></div>
+        <div className="col-12 col-sm-12 col-md-5 d-flex align-items-center">
           <FeatureImage url={info.img} />
         </div>
       </div>
