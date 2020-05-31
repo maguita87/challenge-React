@@ -8,7 +8,7 @@ const Intro = () => {
           <h2 className="title-intro">
             Combine all your credit cards in one place
           </h2>
-          <p className="mb-5 p-text-style">
+          <p className="p-text-style">
             We alow you to connect diferent bank cards, in one system, in which
             you will have the opportunity to manage to financial data and track
             the statistics of your costs.
