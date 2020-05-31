@@ -55,6 +55,7 @@
   font-size: 0.7rem;
   color: #a1a9b1;
   font-weight: 400;
+  text-align: center;
 }
 
 /***** MEDIA QUERIES *******/
@@ -65,5 +66,6 @@
   }
   .footer-bar {
     text-align: center;
+    justify-content: center;
   }
 }
