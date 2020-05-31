@@ -4,13 +4,15 @@ const RegisterBox = (props) => {
   return (
     <div className="bg-gradient registerBoxContainer">
       <div className="container">
-        <h2 className="text-light mb-3">
-          Start monitoring your cards right now
-        </h2>
-        <h3 className="description-style text-light">
-          If you register now, you will receive 15 days of product use completly
-          unheeded
-        </h3>
+        <div className="text-light mb-3">
+          <h2>Start monitoring your cards right now</h2>
+        </div>
+        <div className="description-style text-light">
+          <p>
+            If you register now, you will receive 15 days of product use
+            completly unheeded
+          </p>
+        </div>
         <div className="d-flex flex-wrap justify-content-center align-items-center">
           <a className="button-register" href="#">
             Get Started Free

@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="d-flex justify-content-between pt-4">
           <div>
             <a href="#">
-              <h1 className='brand-logo'>Oniblue</h1>
+              <h1 className="brand-logo">Oniblue</h1>
             </a>
           </div>
           <div className="menu d-flex">
@@ -33,7 +33,11 @@ const NavBar = () => {
       </div>
       <div className="hamburguer-overflow">
         <div className="pt-4 d-flex justify-content-between">
-          <h5 className="text-light text-left">Oniblue</h5>
+          <div className="text-light text-left">
+            <a href="#">
+              <h1 className="brand-logo">Oniblue</h1>
+            </a>
+          </div>
           <div className="text-light">
             <MenuIcon />
           </div>
