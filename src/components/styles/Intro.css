@@ -1,0 +1,61 @@
+.container-welcome-text {
+  height: 80vh;
+}
+.container-welcome-text a:hover{
+  text-decoration: none;
+  color: #0e585c;
+}
+
+.text-welcome {
+  text-align: left;
+  width: 50%;
+}
+
+.title-intro {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 2.3rem;
+}
+
+.p-text-style {
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+  line-height: 1.8rem;
+}
+
+.button-gradient {
+  background-color: #1b9b88;
+  color: white;
+  width: 200px;
+  border-radius: 100px;
+  padding: 0.8rem 2.5rem;
+  text-align: center;
+}
+
+/***** MEDIA QUERIES *******/
+
+@media (max-width: 767px) {
+  .title-intro {
+    font-size: 1.8rem;
+  }
+  .p-text-style {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .title-intro {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-welcome {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}

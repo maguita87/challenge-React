@@ -1,0 +1,35 @@
+.bg-gradient {
+  background: rgb(34, 183, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 183, 151, 1) 0%,
+    rgba(21, 143, 158, 1) 100%
+  );
+}
+
+.welcome-container {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.img-welcome {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  height: max-content;
+  width: 40%;
+}
+
+/***** MEDIA QUERIES *******/
+
+@media (max-width: 576px) {
+  .img-welcome {
+    display: none;
+  }
+}

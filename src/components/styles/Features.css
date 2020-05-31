@@ -1,0 +1,122 @@
+/***** FEATURES *******/
+
+.feature-text-style {
+  color: #545f75;
+}
+
+.circle {
+  width: 50px;
+  height: 25px;
+  background: #1ca39a;
+  color: white;
+  border-radius: 0px 0px 100px 100px;
+  margin-top: -1px;
+}
+.arrow {
+  margin-top: -10px;
+}
+.dashed-line {
+  border-right: 2px dashed #1ca39a;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.p-style {
+  color: #a1a9b1;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+}
+
+.container-feature-item {
+  margin-bottom: 5rem;
+}
+
+/***** FEATURE ITEM *******/
+
+.feature-title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.features-items {
+  text-align: left;
+  margin: 0px 15px;
+}
+
+/***** FEATURE INFO *******/
+
+.infoContainer {
+  text-align: left;
+}
+
+.infoContainer a:hover {
+  text-decoration: none;
+  color: #0e585c;
+}
+.title-style {
+  color: #545f75;
+  margin-bottom: 1.5rem;
+}
+
+.info-style {
+  color: #a1a9b1;
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+.button-content {
+  background-color: #00ca9d;
+  color: white;
+  width: 100%;
+  border-radius: 100px;
+  padding: 11px 40px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/***** FEATURES DESCRIPTION *******/
+
+.container-info {
+  margin-bottom: 5rem;
+}
+
+/***** LABEL *******/
+
+.label {
+  background-color: #d6f4ee;
+  width: 200px;
+  color: #00ca9d;
+  text-align: center;
+  padding: 0.4rem;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+/***** MEDIA QUERIES *******/
+
+@media (max-width: 425px) {
+  .infoContainer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .list-item-style {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .features-items {
+    text-align: center;
+    margin: 0px;
+  }
+}

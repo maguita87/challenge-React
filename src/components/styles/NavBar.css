@@ -1,0 +1,70 @@
+.menu-desktop a:hover{
+  text-decoration: none;
+  color: #0e585c;
+  
+}
+
+.button-blue {
+  background-color: #46abb0;
+  color: white;
+  width: 100px;
+  border-radius: 100px;
+  padding: 10px 35px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 0.8rem;
+}
+.button-white {
+  background-color: white;
+  color: #46abb0;
+  width: 100px;
+  border-radius: 100px;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.brand-logo {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.menu nav a {
+  font-size: 0.8rem;
+  color: white;
+  padding: 0 20px;
+}
+
+.buttons {
+  margin-left: 60px;
+}
+
+.hamburguer-overflow {
+  display: none;
+}
+
+/***** MEDIA QUERIES *******/
+
+@media (max-width: 991px) {
+  .buttons {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburguer-overflow {
+    display: block;
+  }
+  .menu-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .button-blue {
+    padding: 10px 24px;
+  }
+  .button-white {
+    padding: 10px 24px;
+  }
+}
