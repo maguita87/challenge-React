@@ -17,8 +17,8 @@ const ContactUs = (props) => {
     <div className="footer-links mb-5">
       <h3>Contact Us</h3>
       <ul className="list">
-        <li className="mb-2 liStyle">+44 (0) 77 2123 9241</li>
-        <li className="mb-2 liStyle">hello@onebluesocial.com</li>
+        <li className="mb-2 liStyle font-italic">+44 (0) 77 2123 9241</li>
+        <li className="mb-2 liStyle font-italic">hello@onebluesocial.com</li>
         <li className="mb-2 liStyle">{logoIcons}</li>
       </ul>
     </div>

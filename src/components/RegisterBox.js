@@ -14,12 +14,17 @@ const RegisterBox = (props) => {
           </p>
         </div>
         <div className="d-flex flex-wrap justify-content-center align-items-center">
-          <a className="button-register" href="#">
-            Get Started Free
-          </a>
-          <a class="button-light" href="#">
-            or you can view pricing
-          </a>
+          <div className="button-register">
+            <a className="button-light" href="#">
+              Get Started Free
+            </a>
+          </div>
+          <div className="d-flex link-registerBox">
+            <p className="button-light mr-1 mb-0">or you can</p>
+            <a className="button-light font-italic" href="#">
+              view pricing
+            </a>
+          </div>
         </div>
       </div>
     </div>

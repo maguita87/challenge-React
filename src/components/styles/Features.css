@@ -118,5 +118,6 @@
   .features-items {
     text-align: center;
     margin: 0px;
+    padding: 0 25px;
   }
 }
