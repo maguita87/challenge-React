@@ -10,7 +10,7 @@ const Welcome = () => {
       <Intro />
       <div>
         <div className="img-welcome">
-          <img className="w-100" src={require("./img/img2.png")}></img>
+          <img alt='welcome'className="w-100" src={require("./img/img2.png")}></img>
         </div>
       </div>
     </div>
